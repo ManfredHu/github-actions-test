@@ -1,5 +1,5 @@
 # Github Actions 个人使用经验
-## npm-bump
+## npm-bump 自动更新版本号后发布npm
 
 使用方式如 `.github/workflows/npm-bump-release.yml`
 
