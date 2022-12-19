@@ -36,11 +36,11 @@
 
 ![](./image/secrets.png)
 
-## pull-request-labels PR自动打标升级版本号发布npm
+### 设置保护分支 & 分支检查
 
-参考: [github-actions-npm-version-bump-using-labels-on-pr-merge](https://medium.com/@johnathanmiller/github-actions-npm-version-bump-using-labels-on-pr-merge-8c716a488a64)
+![](./image/protected-branch-settings.png)
 
 
-
-## github 环境变量
-[github 环境变量](https://docs.github.com/en/actions/learn-github-actions/contexts)
+# 参考
+- [github-actions-npm-version-bump-using-labels-on-pr-merge](https://medium.com/@johnathanmiller/github-actions-npm-version-bump-using-labels-on-pr-merge-8c716a488a64)
+- [github 环境变量](https://docs.github.com/en/actions/learn-github-actions/contexts)
