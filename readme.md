@@ -7,6 +7,9 @@
 
 ![](./image/npm-bump.jpeg)
 
+## 监听dev分支PR自动设置版本号
+![](./image/dev-pr-add-comment.jpeg)
+
 ## pull-request-labels PR自动打标升级版本号发布npm
 
 参考: [github-actions-npm-version-bump-using-labels-on-pr-merge](https://medium.com/@johnathanmiller/github-actions-npm-version-bump-using-labels-on-pr-merge-8c716a488a64)
