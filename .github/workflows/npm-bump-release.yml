@@ -34,7 +34,7 @@ jobs:
       uses: bcomnes/npm-bump@v2
       with:
         git_email: manfredhu@gmail.com
-        git_username: ${{ github.actor }}
+        git_username: ${{ github.actor }} # The username of the user that triggered the initial workflow run.
         newversion: ${{ github.event.inputs.newversion }}
         push_version_commit: true # if your prePublishOnly step pushes git commits, you can omit this input or set it to false.
         github_token: ${{ secrets.GH_TOKEN }} # built in actions token.  Passed tp gh-release if in use.
